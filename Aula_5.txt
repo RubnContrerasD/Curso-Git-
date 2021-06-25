@@ -1,0 +1,139 @@
+    1  history
+    2  ls
+    3  cd Bonitapasta/
+    4  ls
+    5  pwd
+    6  ls
+    7  rm -r CursoGit.txt 
+    8  cat > readme.md
+    9  ls
+   10  touch radme.md
+   11  ls
+   12  echo "" > readme.md
+   13  ls
+   14  echo hola
+   15  ls
+   16  echo ' hola como estan' > cursogit.txt
+   17  echo 'hola como estan uds' > readme.md
+   18  ls
+   19  rm -r readme.md 
+   20  rm -r readme.md
+   21  rm -r radme.md 
+   22  echo 'hola como estan' > readme.md
+   23  clear
+   24  git log
+   25  git log
+   26  git status
+   27  git log -2
+   28  git log -p -2
+   29  clear
+   30  git log --pretty=online -2
+   31  git log --pretty=online-2
+   32  touch apagar.txt
+   33  git status
+   34  git add 'apagar.txt' 
+   35  git status 
+   36  git commit -m 'é um teste para apagar'
+   37  git status
+   38  git log
+   39  git reset HEAD~
+   40  git status
+   41  git add .
+   42  git commit -m 
+   43  git commit -m 'agora sim vou apagarxd'
+   44  git status
+   45  git log --pretty=online
+   46  git log --pretty=oneline
+   47  git reset --hard HEAD~
+   48  git log --pretty=oneline
+   49  clear
+   50  pwd
+   51  cd desktop
+   52  ls
+   53  cd Curso\ Git/
+   54  git log
+   55  cd ..
+   56  cd ..
+   57  pwd
+   58  lks
+   59  ls
+   60  clear
+   61  cd 'curso Git
+ls
+
+   62  cd Curso Git
+   63  cd 'Curso Git
+ls
+
+   64  cd desktop
+   65  ls
+   66  cd 'Curso Git'
+   67  cd ..
+   68  cd Curso\ Git/
+   69  ls
+   70  git log
+   71  git log --pretty=online
+   72  git log --pretty=oneline
+   73  clear
+   74  git log
+   75  touch Teste
+   76  git status
+   77  git add 'teste'
+   78  git status
+   79  git add 'Teste'
+   80  git status
+   81  git commit -m 
+   82  git log
+   83  git status
+   84  git commit -m 'teste para borrar'
+   85  git log
+   86  git reset --soft HEAD~
+   87  git status
+   88  git commit -m 'teste para borrar'
+   89  git reset --hard HEAD 
+   90  git status
+   91  git log
+   92  git reset --hard HEAD 
+   93  git status
+   94  git log
+   95  git reset --hard HEAD~ 
+   96  git log
+   97  clear
+   98  git log
+   99  clear
+  100  git branch
+  101  git checkout -b feature
+  102  git branch
+  103  touch Nova_feature
+  104  git status
+  105  git add Nova_feature 
+  106  git commit -m 'Adicionando nova feature'
+  107  git log
+  108  git checkout master
+  109  git status
+  110  git log
+  111  touch Continuando_master
+  112  git add Continuando_master 
+  113  git commit -m 'Adicionando continuaçao na master'
+  114  git log
+  115  git checkout feature
+  116  git log
+  117  git checkout -b feature2 master
+  118  git log
+  119* 
+  120  git checkout master
+  121  git checkout -b feature2 
+  122  git log
+  123  git branch -d feature2
+  124  git log
+  125  clear
+  126  git checkout feature
+  127  git log --pretty=oneline --graph
+  128  git merge master
+  129  git log
+  130  git log --pretty=oneline --graph
+  131  git reset --hard HEAD~
+  132  git log --pretty=oneline --graph
+  133  git rebase master
+  134  git log --pretty=oneline --graph
+  135  history > Aula_5.txt
