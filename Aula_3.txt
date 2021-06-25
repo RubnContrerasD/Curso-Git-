@@ -1,0 +1,58 @@
+    1  history
+    2  ls
+    3  cd Bonitapasta/
+    4  ls
+    5  pwd
+    6  ls
+    7  rm -r CursoGit.txt 
+    8  cat > readme.md
+    9  ls
+   10  touch radme.md
+   11  ls
+   12  echo "" > readme.md
+   13  ls
+   14  echo hola
+   15  ls
+   16  echo ' hola como estan' > cursogit.txt
+   17  echo 'hola como estan uds' > readme.md
+   18  ls
+   19  rm -r readme.md 
+   20  rm -r readme.md
+   21  rm -r radme.md 
+   22  echo 'hola como estan' > readme.md
+   23  clear
+   24  git config --global user.name 'Ruben Dugarte'
+   25  git config --global user.email 'eitocontrerasdu@gmail.com'
+   26  git config user.name
+   27  cd Desktop/
+   28  mkdir 'Curso Git'
+   29  cd Curso\ Git/
+   30  ls
+   31  git config user.name
+   32  git init
+   33  git status
+   34  echo '#Aprendendo usar o Git' > readme.md
+   35  git status
+   36  git add readme.md 
+   37  git status
+   38  git commit -m 'Commit inicial'
+   39  git status
+   40  echo '##Aula 1' >> readme.md 
+   41  git status
+   42  echo 'Ruben Contreras' > participantes.txt
+   43  git status
+   44  git add .
+   45  git status
+   46  git restore --staged participantes.txt
+   47  git staatus
+   48  git status
+   49  git add participantes.txt 
+   50  git status 
+   51   git restore --staged .
+   52  git status
+   53  git commit -am 'Alteração no readme'
+   54  git status
+   55  git add participantes.txt 
+   56  git status
+   57  git commit -m 'Adicionado participantes.txt'
+   58  history > Aula_3.txt
