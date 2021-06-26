@@ -1,0 +1,9 @@
+    1  git config --global alias.logarepa 'log --pretty=oneline --graph'
+    2  git logarepa
+    3  git tag -a v0.1 -m 'Até a Aula 5'
+    4  git logarepa
+    5  git checkout master
+    6  git rebase feature
+    7  git arepa
+    8  git logarepa
+    9  history > Aula_6.txt
